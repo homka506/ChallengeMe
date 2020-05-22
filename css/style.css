@@ -34,7 +34,9 @@ header {
 p{
     padding: 5px;
 }
-
+.first_paragraph::first-letter{
+ font-size: 200%;
+}
 .text {
     width: auto;
     background-color: #ffffff;
