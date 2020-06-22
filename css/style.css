@@ -8,16 +8,15 @@ body{
 .chm-menu {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content:flex-end;
   }
   @media (max-width: 800px)  {
     .chm-menu {
         display:none;
     }
 }
-.chm-menu{
-  display: flex;
-  justify-content:flex-end;
-}
+
   .chm-nav {
     position: fixed;
     display: flex;
@@ -99,7 +98,7 @@ ul{
 
 #chm-mobilemenuToggle:checked ~ .chm-mobilemenu__item {
   max-height: 500px;
-  transition: top 1s ease-in;
+  transition: top 1s ease-out 0.5s;
 }
 
 .chm-mobilemenu__item li{
@@ -128,7 +127,7 @@ ul{
   height: 4px;
   border-radius: 2px;
   background-color: black;
-  position: relative;;
+  position: relative;
   top:40%;
   right:0;
   
